@@ -11,7 +11,7 @@ header > * {
     display: inline-block;
 }
 
-.time_sec {
+#time_sec {
     float: right;
     margin: 10px 20px 0px 0px;
 }
@@ -27,6 +27,10 @@ header > * {
     left: 25%;
     width: 50%;
     text-align: center;
+}
+
+.Quiz-title {
+    font-size: 120%;
 }
 
 .Quiz-info {
