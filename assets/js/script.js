@@ -8,7 +8,7 @@ var StartQuizbtn = document.querySelector('.Start-btn').addEventListener('click'
 
     sec--;
 
-    if (sec === 1) {
+    if (sec <= 1) {
         clearInterval(time);
         setInterval(function myTimer(){
         document.getElementById('time_sec').innerHTML = sec + 
@@ -16,7 +16,7 @@ var StartQuizbtn = document.querySelector('.Start-btn').addEventListener('click'
 
         sec--;
 
-        if (sec === 0) {
+        if (sec <= 0) {
         clearInterval(time);
         document.getElementById("time_sec").innerHTML = "Time's up!"
         }
@@ -25,17 +25,21 @@ var StartQuizbtn = document.querySelector('.Start-btn').addEventListener('click'
 
     }, 1000);
 
+    var introTitle = document.querySelector("#questions:first-child")
 
+    var queTitle = document.createElement('h1');
+
+    queTitle.innerHTML = 'What does HTML stand for?';
+
+    introTitle.parentNode.replaceChild(queTitle, introTitle);
+
+    queTitle.className = "Quiz-info-box Question-title"
 });
 
-var queBoxEl = document.querySelector("#questions")
 
 
 
 
-    var questionEl = document.createElement("h1")
-    questionEl.className = "Que-title"
-    questionEl.textContent = "What does HTML stand for?"
 
     var answer1EL = document.createElement("button")
     var answer2EL = document.createElement("button")

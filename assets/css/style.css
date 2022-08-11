@@ -30,7 +30,11 @@ header > * {
 }
 
 .Quiz-title {
-    font-size: 120%;
+    font-size: 200%;
+}
+
+.Question-title {
+    font-size: 150%;
 }
 
 .Quiz-info {
@@ -46,3 +50,4 @@ button {
     border-radius: 6px;
     cursor: pointer;
 }
+
