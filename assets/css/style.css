@@ -1,0 +1,44 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > * {
+    display: inline-block;
+}
+
+.high-scores {
+    margin: 10px 0px 0px 10px;
+    display: inline-block;
+}
+
+.time_sec {
+    float: right;
+    margin: 10px 20px 0px 0px;
+}
+
+.time_text {
+    float: right;
+    margin: 10px 15px 0px 0px;
+}
+
+.Quiz-info-box {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.Quiz-info {
+    overflow: wrap;
+}
+
+button {
+    background-color: navy;
+    font-size: large;
+    color: white;
+    border: none;
+    padding: 7px 14px 7px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
