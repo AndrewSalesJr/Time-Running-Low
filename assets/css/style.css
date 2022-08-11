@@ -6,6 +6,10 @@ header > * {
     display: inline-block;
 }
 
+h1 {
+    text-align: center;
+}
+
 .high-scores {
     margin: 10px 0px 0px 10px;
     display: inline-block;
@@ -25,20 +29,27 @@ header > * {
     position: absolute;
     top: 30%;
     left: 25%;
-    width: 50%;
-    text-align: center;
+    width: 60%;
 }
 
-.Quiz-title {
+#Quiz-title {
     font-size: 200%;
 }
 
 .Question-title {
     font-size: 150%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
 }
 
-.Quiz-info {
+p {
     overflow: wrap;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 button {
@@ -49,5 +60,31 @@ button {
     padding: 7px 14px 7px 14px;
     border-radius: 6px;
     cursor: pointer;
+    display: block;
 }
 
+
+
+p {
+    margin: 0px;
+}
+
+.answers {
+    display: block;
+}
+
+.one {
+    margin-top: 10px;
+}
+
+.two {
+    margin-top: 6px;
+}
+
+.three {
+    margin-top: 6px;
+}
+
+.four {
+    margin-top: 6px;
+}
